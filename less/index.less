@@ -1,0 +1,104 @@
+@import "public.less";
+header.mui-bar{
+    .h(80);
+    .flex_b();
+    input{
+        .mb(0);
+        .h(50);
+        border:none;
+        .ml(20);
+        .mr(20);
+        .pl(20);
+        padding: 0;
+    }
+    background-color:rgba(229, 131, 53,0);
+    box-shadow:none;
+    .iconfont{
+        color: #fff;
+    }
+}
+.mui-content{
+    padding-top:0 !important;
+    background-color: #fff;
+    .mui-slider{
+        .mui-slider-indicator{
+            text-align: right;
+        }
+    }
+    .topNav{
+        .flex_a();
+        .h(150);
+        background-color: #fff;
+        color:#000;
+        .fs(24);
+       
+        .iconfont{
+            margin:0 auto;
+            .mb(20);
+            display: block;.w(64);.h(64);.br(32);.lh(64);text-align: center;color:#fff;
+            background-color:#E02038;
+        }
+        border-bottom:1px solid #ccc;
+    }
+    .morning{
+        .pl(20);
+        display: flex;
+        align-items: center;
+        .h(82);.fs(28);
+        a{
+            color:#000;
+        }
+        .title{
+            font-weight: bold;
+            color:#F15E37;
+            flex: 0 0 auto;
+            .pr(20);
+            .mr(20);
+            border-right:1px solid #ccc;
+        }
+        .newscontent{flex:1 1 auto;}
+    }
+    
+    .product{
+        img{width:100%;}
+        .item{
+            padding:1px;
+        }
+    }
+    .adv{
+        img{
+            width:100%;
+        }
+    }
+    .productList{
+        .item:nth-child(2n){
+            padding-left:1px;
+        }
+        .item:nth-child(2n+1){
+            padding-right:1px;
+        }
+        .item{
+            div{.pl(25);}
+            .title{
+                   .fs(28);color:#333;
+            }
+            line-height: 1.5;
+            .info{
+                color: #ddd;.fs(24);
+            }
+            em{
+                color: #f60;.fs(23);
+                .mr(20);
+            }
+            del{
+                color: #f60;.fs(20);
+            }
+        }
+        img{
+            width:100%;
+        }
+    }
+}
+
+
+

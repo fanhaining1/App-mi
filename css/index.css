@@ -1,0 +1,228 @@
+.fr {
+  float: right;
+}
+html {
+  font-size: 100px;
+}
+.c333 {
+  color: #333;
+}
+.c666 {
+  color: #666;
+}
+.c444 {
+  color: #444;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+em,
+i {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+body {
+  font-family: "Microsoft Yahei", "微软雅黑";
+}
+header.mui-bar {
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(229, 131, 53, 0);
+  box-shadow: none;
+}
+header.mui-bar input {
+  margin-bottom: 0rem;
+  height: 0.5rem;
+  border: none;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  padding-left: 0.2rem;
+  padding: 0;
+}
+header.mui-bar .iconfont {
+  color: #fff;
+}
+.mui-content {
+  padding-top: 0 !important;
+  background-color: #fff;
+}
+.mui-content .mui-slider .mui-slider-indicator {
+  text-align: right;
+}
+.mui-content .topNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1.5rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 0.24rem;
+  border-bottom: 1px solid #ccc;
+}
+.mui-content .topNav .iconfont {
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 0.32rem;
+  line-height: 0.64rem;
+  text-align: center;
+  color: #fff;
+  background-color: #E02038;
+}
+.mui-content .morning {
+  padding-left: 0.2rem;
+  display: flex;
+  align-items: center;
+  height: 0.82rem;
+  font-size: 0.28rem;
+}
+.mui-content .morning a {
+  color: #000;
+}
+.mui-content .morning .title {
+  font-weight: bold;
+  color: #F15E37;
+  flex: 0 0 auto;
+  padding-right: 0.2rem;
+  margin-right: 0.2rem;
+  border-right: 1px solid #ccc;
+}
+.mui-content .morning .newscontent {
+  flex: 1 1 auto;
+}
+.mui-content .product img {
+  width: 100%;
+}
+.mui-content .product .item {
+  padding: 1px;
+}
+.mui-content .adv img {
+  width: 100%;
+}
+.mui-content .productList .item:nth-child(2n) {
+  padding-left: 1px;
+}
+.mui-content .productList .item:nth-child(2n+1) {
+  padding-right: 1px;
+}
+.mui-content .productList .item {
+  line-height: 1.5;
+}
+.mui-content .productList .item div {
+  padding-left: 0.25rem;
+}
+.mui-content .productList .item .title {
+  font-size: 0.28rem;
+  color: #333;
+}
+.mui-content .productList .item .info {
+  color: #ddd;
+  font-size: 0.24rem;
+}
+.mui-content .productList .item em {
+  color: #f60;
+  font-size: 0.23rem;
+  margin-right: 0.2rem;
+}
+.mui-content .productList .item del {
+  color: #f60;
+  font-size: 0.2rem;
+}
+.mui-content .productList img {
+  width: 100%;
+}

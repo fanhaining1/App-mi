@@ -1,0 +1,64 @@
+@import "public.less";
+header.mui-bar{
+    .h(80);
+    .flex_b();
+    input{
+        .mb(0);
+        .h(50);
+        border:none;
+        .ml(20);
+        .mr(20);
+        .pl(20);
+        padding: 0;
+    }
+    background-color:rgb(229, 131, 53);
+    box-shadow:none;
+    .iconfont{
+        color: #fff;
+    }
+}
+.mui-content{
+    padding-top:0 !important;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    .t(80);
+    bottom:50px;//底部的导航条是50px高
+    left:0;
+    right:0;
+    
+    .linksContent{
+        .w(158);
+        border-right:1px solid #ccc;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        .lh(80);
+        .fs(24);
+        color:#666;
+        .tc();
+        .current{
+            color:#f60;
+            .fs(30);
+        }
+    }
+    .itemsContent{
+        overflow: scroll;
+        .pl(34);
+        .pr(34);
+        flex:1  1 auto;
+        img{width:100%;}
+        .adv{
+            .mb(50);
+        }
+        h3{.fs(28);color:#222;.tc();.mb(40);}
+        .productList{
+            img{.h(125);}
+            p{.tc();.mt(40);}
+            .mui-col-sm-4{.mb(40);}
+        }
+    }
+}
+
+
+
